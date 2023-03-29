@@ -1,0 +1,55 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+.Header-section {
+  width: 80%;
+  height: 4rem;
+  background: rgb(124, 77, 255);
+  background: linear-gradient(90deg, rgba(124, 77, 255, 1) 30%, rgba(123, 31, 162, 1) 65%, rgba(33, 33, 33, 1) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 9px 13px 13px rgba(0, 0, 0, 0.1);
+}
+.Header-menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.Header-menu a {
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+  transition: 0.3s;
+}
+.Header-menu a:hover {
+  color: #7c4dff;
+  border-bottom: 1px solid;
+}
+.Logo {
+  padding-left: 15px;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.Gabi {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #7b1fa2;
+  transition: 0.4s;
+}
+.Gabi:hover {
+  color: #f652a0;
+}
+.Ramos {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #f652a0;
+  transition: 0.4s;
+}
+.Ramos:hover {
+  color: #7b1fa2;
+}
